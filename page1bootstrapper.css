@@ -1,0 +1,46 @@
+body { 
+    margin: 0; 
+    padding: 0;
+    font-family: sans-serif; } 
+
+#headerRow{
+    background-color:#D8D8D8;
+    height: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#whiteSpace{
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: white;
+}
+
+#bigwhiteSpace{
+    background-color: #FFFFFF;
+    font-size: 28px;
+    color: white;
+}
+
+#firstTitle{
+    color: #3399FF;
+    font-size: 28px;
+}
+
+#secondTitle{
+    color: #FF0066;
+    font-size: 28px;
+}
+
+#blackLabel{
+    color:#000000;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#thirdTitle{
+    color: #990099;
+    font-size: 28px;
+}

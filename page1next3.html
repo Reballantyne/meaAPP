@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script class="jsbin" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <meta charset=utf-8 />
+    <link href="page1bootstrapper.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>M.E.A. Calc</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class = "row">
+        <div class = "span12" id = "whiteSpace"> This won't be here </div> </div>
+
+      <div class = "row">
+        <div class = "span12" id = "headerRow" > M.E.A. CALC </div> </div>
+
+      <div class = "row">
+        <div class = "span12" id = "bigwhiteSpace"> This won't be here </div> </div>
+
+      <div class = "col-fluid">
+        <div class = "span4"> Information </div> 
+        <div class = "span4"> More Info </div>
+        <div class = "span4"> Output </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-1" id = "whiteSpace"> yo</div>
+        <div class = "col-md-5" id = "firstTitle"> 1) Enter your information! </div>
+        <div class = "col-md-1" id = "whiteSpace">yo </div>
+        <div class = "col-md-4" id = "secondTitle"> 2) Enter your goal % </div>
+        <div class = "col-md-1" id = "whiteSpace">yo</div>
+      </div>
+
+      <div class = "row">
+        <div class = "span12" id = "whiteSpace"> This won't be here </div> </div>
+
+      <div class = "row">
+        <div class = "col-md-1" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "blackLabel"> 
+          <form role = "form">
+          <div class = "form-group">
+            <label for = "gradeCategory">Grade Category</label>
+           <input class = "form-control" id = "Label" placeholder = "ex: Homework">
+         </div> </form> </div>
+        <div class = "col-md-4" id = "whiteSpace">yo </div>
+        <div class = "col-md-2" id = "blackLabel">
+          <form role = "form">
+            <div class = "form-group">
+              <label for = "goalPercentage">Goal Percentage</label>
+              <input class = "form-control" id = "goal" placeholder = "ex: 90%">
+            </div></form></div>
+        <div class = "col-md-3" id = "whiteSpace">yo </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-1" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "blackLabel"> 
+          <form role = "form">
+          <div class = "form-group">
+            <label for = "percentageWeight">Weight</label>
+           <input class = "form-control" id = "Weight" placeholder = "ex: 30% = .30">
+         </div> </form> </div>
+        <div class = "col-md-4" id = "whiteSpace">yo </div>
+        <div class = "col-md-4" id = "thirdTitle"> 3) Find out the minimum grade you need! </div>
+        <div class = "col-md-1" id = "whiteSpace">yo </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-1" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "blackLabel"> 
+          <form role = "form">
+          <div class = "form-group">
+            <label for = "percentageWeight">Percentage Score</label>
+           <input class = "form-control" id = "Score" placeholder = "ex: 90">
+         </div> </form> </div>
+        <div class = "col-md-4" id = "whiteSpace">yo </div>
+        <div class = "col-md-2" id = "whiteSpace">yo </div>
+          <input id = "calculateButton" type="button" class = "btn btn-lg btn-default" value="Submit" onclick="calculate()" />
+        <div class = "col-md-3" id = "whiteSpace">yo </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-2" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "firstButton">
+          <input id = "saveButton" class = "btn btn-lg btn-default" type="button" value="+ Add Another" onclick="insert()" /> </div>
+        <div class = "col-md-2" id = "whiteSpace"> yo</div>
+        <div class = "col-md-6" id = "whiteSpace">yo </div>
+      </div>
+    <div id="display"></div>
+  </div>
+  </div>
+    <script src="gradeCalc.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script class="jsbin" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+  <link rel="stylesheet" href="main.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="page1.css" rel="stylesheet">
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+</style>
+</head>
+<body>
+  <form>
+    <h1>Please enter data</h1>
+    <input id="type" type="text" placeholder="Type" />
+    <input id="weight" type="text" placeholder="Weight" />
+    <input id="score" type="text" placeholder="Score" />
+    <input type="button" value="Save/Show" onclick="insert()" />
+    <input type="button" value="Submit" onclick="calculate()" />
+  </form>
+  <div id="display"></div>
+  <script src="javascript.js"></script>
+</body>
+</html>
