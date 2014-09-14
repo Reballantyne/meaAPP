@@ -4,6 +4,7 @@ body {
     font-family: sans-serif; } 
 
 #headerRow{
+    font-family: sans-serif;
     background-color:#D8D8D8;
     height: 90px;
     padding-top: 15px;
@@ -12,10 +13,24 @@ body {
     text-align: center;
 }
 
+
+.displayOutPutFormat {
+
+}
+
+.box1-info{
+    background-color: red;
+}
+
 #whiteSpace{
     background-color: #FFFFFF;
     font-size: 18px;
     color: white;
+}
+
+#petitewhiteSpace{
+    font-size: 6px;
+    color:white;
 }
 
 #bigwhiteSpace{
@@ -25,22 +40,44 @@ body {
 }
 
 #firstTitle{
+    font-family: sans-serif;
     color: #3399FF;
     font-size: 28px;
 }
 
 #secondTitle{
+    font-family: sans-serif;
     color: #FF0066;
     font-size: 28px;
 }
 
+#fourthTitle{
+    font-family:sans-serif;
+    color: #003300;
+    font-size: 28px;
+}
+
 #blackLabel{
+    font-family:sans-serif;
     color:#000000;
     font-weight: bold;
     font-size: 15px;
 }
 
 #thirdTitle{
+    font-family:sans-serif;
     color: #990099;
     font-size: 28px;
 }
+
+#display2{
+    font-family:sans-serif;
+    color: #000066;
+    font-size: 22px;
+}
+
+#calculateButton{
+    font-family: sans-serif;
+}
+
+
