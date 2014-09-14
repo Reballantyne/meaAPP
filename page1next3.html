@@ -12,87 +12,99 @@
   <body>
     <div class="container-fluid">
       <div class = "row">
-        <div class = "span12" id = "whiteSpace"> This won't be here </div> </div>
+        <div class = "span12" id = "whiteSpace">&nbsp;</div> </div>
 
       <div class = "row">
-        <div class = "span12" id = "headerRow" > M.E.A. CALC </div> </div>
+        <div class = "span12" id = "headerRow" > M.E.A. Calc </div> </div>
 
       <div class = "row">
         <div class = "span12" id = "bigwhiteSpace"> This won't be here </div> </div>
 
-      <div class = "col-fluid">
-        <div class = "span4"> Information </div> 
-        <div class = "span4"> More Info </div>
-        <div class = "span4"> Output </div>
+      <div class = "row">
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-4" id = "firstTitle"> 1) Enter your information! </div>
+        <div class = "col-md-1" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "secondTitle"> 2) Enter your goal % </div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
       </div>
 
       <div class = "row">
-        <div class = "col-md-1" id = "whiteSpace"> yo</div>
-        <div class = "col-md-5" id = "firstTitle"> 1) Enter your information! </div>
-        <div class = "col-md-1" id = "whiteSpace">yo </div>
-        <div class = "col-md-4" id = "secondTitle"> 2) Enter your goal % </div>
-        <div class = "col-md-1" id = "whiteSpace">yo</div>
-      </div>
+        <div class = "span12" id = "petitewhiteSpace"> &nbsp; </div> </div>
 
       <div class = "row">
-        <div class = "span12" id = "whiteSpace"> This won't be here </div> </div>
-
-      <div class = "row">
-        <div class = "col-md-1" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
         <div class = "col-md-2" id = "blackLabel"> 
           <form role = "form">
           <div class = "form-group">
             <label for = "gradeCategory">Grade Category</label>
-           <input class = "form-control" id = "Label" placeholder = "ex: Homework">
+           <input class = "form-control" id = "label" placeholder = "ex: Homework">
          </div> </form> </div>
-        <div class = "col-md-4" id = "whiteSpace">yo </div>
+        <div class = "col-md-3" id = "whiteSpace">&nbsp;</div>
         <div class = "col-md-2" id = "blackLabel">
           <form role = "form">
             <div class = "form-group">
               <label for = "goalPercentage">Goal Percentage</label>
-              <input class = "form-control" id = "goal" placeholder = "ex: 90%">
+              <input class = "form-control" id = "goal" placeholder = "For 90% type 90">
             </div></form></div>
-        <div class = "col-md-3" id = "whiteSpace">yo </div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
       </div>
 
       <div class = "row">
-        <div class = "col-md-1" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
         <div class = "col-md-2" id = "blackLabel"> 
           <form role = "form">
           <div class = "form-group">
             <label for = "percentageWeight">Weight</label>
-           <input class = "form-control" id = "Weight" placeholder = "ex: 30% = .30">
+           <input class = "form-control" id = "weight" placeholder = "For 30% type 30">
          </div> </form> </div>
-        <div class = "col-md-4" id = "whiteSpace">yo </div>
-        <div class = "col-md-4" id = "thirdTitle"> 3) Find out the minimum grade you need! </div>
-        <div class = "col-md-1" id = "whiteSpace">yo </div>
+        <div class = "col-md-3" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "thirdTitle"> 3) Find out the minimum grade you need! </div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
       </div>
 
       <div class = "row">
-        <div class = "col-md-1" id = "whiteSpace"> yo</div>
-        <div class = "col-md-2" id = "blackLabel"> 
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "blackLabel"> 
           <form role = "form">
           <div class = "form-group">
             <label for = "percentageWeight">Percentage Score</label>
-           <input class = "form-control" id = "Score" placeholder = "ex: 90">
+           <input class = "form-control" id = "score" placeholder = "For 40% type 40">
          </div> </form> </div>
-        <div class = "col-md-4" id = "whiteSpace">yo </div>
-        <div class = "col-md-2" id = "whiteSpace">yo </div>
-          <input id = "calculateButton" type="button" class = "btn btn-lg btn-default" value="Submit" onclick="calculate()" />
-        <div class = "col-md-3" id = "whiteSpace">yo </div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3">
+          <input id = "calculateButton" type="button" id = "subButton" 
+          class = "btn btn-lg btn-danger btn-block" value="Submit" onclick="calculate()" />
+        </div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
       </div>
 
       <div class = "row">
-        <div class = "col-md-2" id = "whiteSpace"> yo</div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
         <div class = "col-md-2" id = "firstButton">
-          <input id = "saveButton" class = "btn btn-lg btn-default" type="button" value="+ Add Another" onclick="insert()" /> </div>
-        <div class = "col-md-2" id = "whiteSpace"> yo</div>
-        <div class = "col-md-6" id = "whiteSpace">yo </div>
+          <input class = "btn btn-lg btn-default" type="button" value="+ Add Another" onclick="insert()" /> </div>
+        <div class = "col-md-3" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-5" id = "whiteSpace">&nbsp;</div>
       </div>
-    <div id="display"></div>
+
+      <div class = "row">
+        <div class = "col-md-2" id = "petitewhiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "fourthTitle"> Your Output So Far:</div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "fourthTitle"> Your Final Result:</div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "display"></div>
+        <div class = "col-md-2" id = "whiteSpace">&nbsp;</div>
+        <div class = "col-md-3" id = "display2"></div>
+      </div>
+
+
+
   </div>
-  </div>
-    <script src="gradeCalc.js"></script>
+
+    <script src="calculate.js"></script>
   </body>
 
 </html>
